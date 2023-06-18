@@ -8,6 +8,7 @@ require (
 	github.com/fsnotify/fsnotify v1.6.0
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/google/uuid v1.1.2
+	github.com/jinzhu/copier v0.3.5
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/o1egl/paseto v1.0.0
 	github.com/spf13/viper v1.16.0
