@@ -1,10 +1,11 @@
 package token
 
 import (
-	"Wutils/pkg/utils"
 	"encoding/json"
 	"testing"
 	"time"
+
+	"github.com/Happy-Why/Wutils/pkg/utils"
 
 	"github.com/golang-jwt/jwt"
 	"github.com/stretchr/testify/require"

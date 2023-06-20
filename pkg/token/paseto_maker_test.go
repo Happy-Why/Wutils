@@ -1,11 +1,12 @@
 package token
 
 import (
-	"Wutils/pkg/utils"
 	"encoding/json"
 	"fmt"
 	"testing"
 	"time"
+
+	"github.com/Happy-Why/Wutils/pkg/utils"
 
 	"github.com/aead/chacha20poly1305"
 	"github.com/stretchr/testify/require"

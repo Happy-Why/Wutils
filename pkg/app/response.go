@@ -1,8 +1,9 @@
 package app
 
 import (
-	"Wutils/pkg/app/errcode"
 	"net/http"
+
+	"github.com/Happy-Why/Wutils/pkg/app/errcode"
 
 	"github.com/gin-gonic/gin"
 )
