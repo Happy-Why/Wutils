@@ -61,7 +61,9 @@ func NewLogger(x *InitStruct, level string) *Log {
 	// 使用 core 创建一个新的 Log 实例，并将其作为指针返回。
 	// zap.New 函数创建一个新的 zap.Logger，它是一个使用给定核心和选项的日志记录器。
 	// zap.AddCaller() 选项添加了调用者的信息到日志中。
-	return &Log{zap.New(core, zap.AddCaller())} // 增加函数调用信息
+	LG := zap.New(core, zap.AddCaller())
+	zap.ReplaceGlobals(LG)
+	return &Log{LG} // 增加函数调用信息
 }
 
 func getEncoder() zapcore.Encoder {
