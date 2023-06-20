@@ -1,4 +1,4 @@
-module Wutils
+module github.com/Happy-Why/Wutils
 
 go 1.19
 
