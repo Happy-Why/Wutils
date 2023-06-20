@@ -1,4 +1,4 @@
-module Whyutils
+module Wutils
 
 go 1.19
 
