@@ -1,7 +1,7 @@
 package app
 
 import (
-	"Whyutils/pkg/utils"
+	"Wutils/pkg/utils"
 	"net/http"
 )
 

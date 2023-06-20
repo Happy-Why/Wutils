@@ -1,7 +1,7 @@
 package app
 
 import (
-	"Whyutils/pkg/app/errcode"
+	"Wutils/pkg/app/errcode"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
