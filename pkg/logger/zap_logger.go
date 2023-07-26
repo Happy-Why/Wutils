@@ -62,7 +62,7 @@ func NewLogger(x *InitStruct, level string) *Log {
 	// zap.New 函数创建一个新的 zap.Logger，它是一个使用给定核心和选项的日志记录器。
 	// zap.AddCaller() 选项添加了调用者的信息到日志中。
 	LG := zap.New(core, zap.AddCaller())
-	zap.ReplaceGlobals(LG)
+	// zap.ReplaceGlobals(LG)	// 可以自行添加
 	return &Log{LG} // 增加函数调用信息
 }
 
